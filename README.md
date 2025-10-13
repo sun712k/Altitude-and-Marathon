@@ -4,9 +4,9 @@ Exploring whether high-altitude environments shape elite long-distance running p
 ---
 
 ## Overview
-This project investigates whether altitude influences elite marathon performance. Specifically, it examines whether runners born (or possibly training) in high-altitude regions perform better and how socioeconomic factors—such as population size and national income—interact with athletic outcomes. 
+This project investigates whether altitude influences elite marathon performance. Specifically, it examines whether runners born (or possibly training) in high-altitude regions perform better and how individual factors-age, sex, BMI and socioeconomic factors—such as population size and national income—interact with athletic outcomes. 
 
-The project uses both **country-level** and **within-country** analyses to distinguish physiological effects of altitude from cultural, economic, or selection-based factors.
+The project uses both **between-country** and **within-country** analyses to distinguish physiological effects of altitude from cultural, economic, or selection-based factors.
 
 ---
 
@@ -27,41 +27,10 @@ The project uses both **country-level** and **within-country** analyses to disti
    → Population size emerged as the strongest predictor of performance, while national income (GNI) showed a moderate role. The negative association between GNI and marathon times suggests that higher-income countries may benefit from superior facilities and infrastructure rather than low-income countries performing better due to stronger motivation for economic advancement.  
 ---
 
-## Data and Methods
-- **Data sources:** Olympic records, global elevation datasets, and socioeconomic indicators (Population, GNI).
-- **Sample:** Elite marathon and half-marathon runners (men and women).  
-- **Variables:**
-  - Runner birth-region altitude  
-  - Country average altitude  
-  - Performance times  
-  - Population and GNI  
+## Regression Table
+<img width="882" height="490" alt="C 3 Results table" src="https://github.com/user-attachments/assets/788e8e46-011c-4c98-8cb4-f8493c11f6e1" />
 
-- **Analysis:**
-  - Linear mixed models with country-level random effects  
-  - Robustness checks excluding outlier countries (Kenya and Ethiopia)  
-
----
-
-## Key Findings
-- Kenyan and Ethiopian runners tend to be born at higher altitudes than their national averages.  
-- Most runners from other high-altitude countries do not follow this pattern.  
-- Population size strongly predicts performance, likely reflecting a larger talent pool and sports culture.  
-- GNI shows a moderate negative effect, suggesting better facilities and infrastructure may aid performance in wealthier countries.  
-- Neither country altitude nor birth-region altitude has a significant independent effect on performance after accounting for socioeconomic variables.  
-
----
-
-## Visuals
-| Birth Region vs. Country Altitude | Model Coefficients |
-|-----------------------------------|--------------------|
-| ![Altitude Distribution](figures/altitude_dist.png) | ![Model Results](figures/model_results.png) |
-
----
-
-## Conclusion
-While altitude has long been considered a key factor behind East Africa’s running dominance, this analysis finds that altitude alone cannot explain differences in elite marathon performance. Instead, broader socioeconomic and demographic factors—such as population and infrastructure—appear to play more influential roles.  
-
-These findings highlight the complexity of athletic success, which likely arises from a combination of environmental, cultural, and economic influences rather than altitude alone.
+>Across all models, individual-level factors were the strongest predictors of marathon performance. Sex (β ≈ 18, p < .001) and BMI (p < .05) consistently predicted slower finish times, with females and runners with higher BMI showing longer completion times. Country-level population was also a robust negative predictor (β ≈ −1.5, p < .001), indicating faster average performances in more populous countries. **In contrast, birth-region altitude and country altitude showed weak or non-significant effects across models, suggesting limited influence once individual and national characteristics were controlled. Allowing random intercepts and slopes for countries did not substantially change the results, implying that the effect of altitude on performance was largely consistent across countries.**
 
 ---
 
