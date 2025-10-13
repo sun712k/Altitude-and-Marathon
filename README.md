@@ -6,6 +6,10 @@ Exploring whether high-altitude environments shape elite long-distance running p
 ## Overview
 This project investigates whether altitude influences elite marathon performance. Specifically, it examines whether runners born (or possibly training) in high-altitude regions perform better and how individual factors-age, sex, BMI and socioeconomic factors—such as population size and national income—interact with athletic outcomes. 
 
+Since many researchers hypothesize that regional altitude influences performance through physiological mechanisms, the second stage of this study will analyze within-country variation—examining whether runners born in higher-altitude regions perform better after controlling for country-level factors. This approach helps isolate the potential physiological effect of altitude while minimizing confounding influences such as genetics and socioeconomic conditions.
+ 
+ *If altitude is truly a causal driver of endurance performance (e.g., through oxygen adaptation or VO₂ max improvements), then the relationship should appear both *across* and *within* countries. Conversely, if the apparent country-level association is instead driven by cultural, genetic, or selection effects, the relationship may disappear when examined within countries.*
+
 The project uses both **between-country** and **within-country** analyses to distinguish physiological effects of altitude from cultural, economic, or selection-based factors.
 
 ---
@@ -19,9 +23,10 @@ The project uses both **between-country** and **within-country** analyses to dis
    → No. Within-country analyses showed no significant relationship between birth-region altitude and performance once national-level factors were controlled for. 
 3. **Are many elite runners from Ethiopia and Kenya actually born in high-altitude regions?**
    → Yes. Many runners from Kenya and Ethiopia—two of the top-performing countries—were born in regions situated above their respective national average elevations. 
+<img width="880" height="389" alt="C 1 Distribtion of altitudes" src="https://github.com/user-attachments/assets/0a109084-f279-4028-9efd-5d149ee479cd" />
 
 4. **What about runners from other countries with even higher altitudes?**
-   → Some are, and others are not. Unlike Kenya and Ethiopia, most runners from the highest-altitude countries do not come from regions above their national average elevation. Overall, there is no clear pattern among the top 10 highest-altitude countries. However, since their national averages are already very high, all runners from Nepal, Tajikistan, and Lesotho come from regions above 1,500 m, with Tajikistan’s runners all originating from elevations over 3,000 m.  
+   → Some are, and others are not. Unlike Kenya and Ethiopia, most runners from the highest-altitude countries do not come from regions above their national average elevation(750m and 1,330m each). Overall, there is no clear pattern among the top 10 highest-altitude countries. However, since their national averages are already very high, all runners from Nepal, Tajikistan, and Lesotho come from regions above 1,500 m, with Tajikistan’s runners all originating from elevations over 3,000 m.  
 
 5. **How do socioeconomic factors interact with performance?**
    → Population size emerged as the strongest predictor of performance, while national income (GNI) showed a moderate role. The negative association between GNI and marathon times suggests that higher-income countries may benefit from superior facilities and infrastructure rather than low-income countries performing better due to stronger motivation for economic advancement.  
