@@ -1,4 +1,4 @@
-# 🌍 Altitude and Elite Marathon Performance
+# 🌍 Altitude and Olympic Marathon Performance
 Exploring whether high-altitude environments shape elite long-distance running performance using Olympic marathon data.
 
 ---
