@@ -1,5 +1,6 @@
 # 🌍 Altitude and Olympic Marathon Performance
-Exploring whether high-altitude environments shape elite long-distance running performance using Olympic marathon data.
+- Exploring whether high-altitude environments shape elite long-distance running performance using Olympic marathon data.
+- After controlling for socioeconomic and national-level factors, neither country altitude nor altitude at a runner’s birth region was significantly associated with long-distance running performance.
 
 ---
 
